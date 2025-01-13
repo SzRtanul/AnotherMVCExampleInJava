@@ -25,8 +25,8 @@ public class ConsoleViewWithJustLittlePoliform {
     //View függvények
     public void showNumber(boolean uj, int szam){
         System.out.print(uj ? 
-            "\u001B[32mEz egy új szám: %d".formatted(szam) :
-            "\u001B[32mEz a régi szám: %d".formatted(szam));
+            "\u001B[35mEz egy új szám: %d".formatted(szam) :
+            "\u001B[35mEz a régi szám: %d".formatted(szam));
         sc.nextLine();
         controller.doIgenyel();
     }

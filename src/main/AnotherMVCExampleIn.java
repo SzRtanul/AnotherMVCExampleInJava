@@ -19,7 +19,7 @@ import view.ViewWithPoliform;
  *
  * @author Roland
  */
-public class SimpleMVCExample {
+public class AnotherMVCExampleIn {
 
     /**
      * @param args the command line arguments
